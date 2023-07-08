@@ -1,0 +1,35 @@
+{
+  "name": "civaliaupdater",
+  "version": "0.0.0",
+  "main": "main.js",
+  "description": "electron-updater example project",
+  "author": "Matt Haggard",
+  "scripts": {
+    "publish": "electron-builder --win -p always",
+    "dist:win": "npm run dist -- WINDOWS"
+  },
+  "devDependencies": {
+    "electron": "^14.0.1",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "electron-log": "^4.4.1",
+    "electron-updater": "^4.3.9"
+  },
+  "build": {
+    "publish": [{
+      "provider": "github",
+      "owner": "CivaliaDev",
+      "repo": "Civalia-Updater"
+    }],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
