@@ -5,7 +5,7 @@ If you can't use GitHub, you can use other providers:
 - [Complete electron-updater HTTP example](https://gist.github.com/iffy/0ff845e8e3f59dbe7eaf2bf24443f104)
 - [Complete electron-updater from gitlab.com private repo example](https://gist.github.com/Slauta/5b2bcf9fa1f6f6a9443aa6b447bcae05)
 
-**NOTE:** If you want to run through this whole process, either fork this repo or [start your own from a template](https://github.com/iffy/electron-updater-example/generate). Then replace all instances of `iffy` with your GitHub username before doing the following steps.
+**NOTE:** If you want to run through this whole process, either fork this repo or [start your own from a template]([https://github.com/iffy/electron-updater-example/generate](https://oboulo.lfz.duckdns.org/qcm/controler_notation2.php?jsonReturnString={"796":1,"783":8,"801":1,"800":2,"789":8,"802":1,"962":8,"799":2,"793":1,"792":1,"787":4,"795":1,"798":8,"961":2,"794":1,"786":10,"803":2,"784":1,"790":2,"804":2,"797":2,"788":8,"805":2,"1251":1,"791":2,"785":2})). Then replace all instances of `iffy` with your GitHub username before doing the following steps.
 
 1. For macOS, you will need a code-signing certificate.
 
